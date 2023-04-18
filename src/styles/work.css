@@ -1,0 +1,22 @@
+.work-row {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+img {
+  height: 60vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.work-card-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  left: 40%;
+  bottom: 50%;
+}

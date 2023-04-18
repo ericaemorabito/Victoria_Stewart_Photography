@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <Container fluid className="header">
-      <Row className="header-title-row text-center my-2">
+      <Row className="header-title-row text-center">
         <a href={headerInformation.titlehref}>
           <h1 className="header-title">{headerInformation.title}</h1>
         </a>
@@ -43,7 +43,7 @@ const Header = () => {
           </a>
         </div>
       </Row>
-      <Row className="header-nav-row text-center">
+      <Row className="header-nav-row text-center ">
         <Col>
           <a href={headerInformation.href1}>
             <p>{headerInformation.link1}</p>

@@ -5,12 +5,12 @@
   top: 0;
   z-index: -1;
   background-color: grey;
-  background-image: url('../images/IMG_0512.jpg');
+  background-image: url('../images/ring.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding-top: 400px;
-  padding-bottom: 200px;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
 
 h2 {
@@ -19,9 +19,16 @@ h2 {
 }
 
 #see-portfolio-btn {
+  color: black;
   font-size: 1.2rem;
+  font-weight: 700;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
+/* breakpoints
+ change backgound image padding top 
+ change center 
+ */
