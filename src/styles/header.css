@@ -1,0 +1,34 @@
+.header {
+  background-color: transparent;
+}
+
+.header-icon-row, 
+.header-nav-row {
+  height: 30px;
+}
+
+.social-media-div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav-links {
+  display: inline;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
+p {
+  display: inline;
+  padding: 20px;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-icon-row{
+    display: none;
+  }
+}

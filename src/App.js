@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "react-bootstrap/dist/react-bootstrap.min.js";
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from './components/Header'
+import HomeScreen from "./screens/HomeScreen";
+import AboutScreen from "./screens/AboutScreen";
+import BookingScreen from "./screens/BookingScreen";
+import WorkScreen from "./screens/WorkScreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header/>
+      <Routes>
+        <Route path="/Victoria_Stewart_Photography/" element={<HomeScreen />}></Route>
+        <Route path="/Victoria_Stewart_Photography/work" element={<WorkScreen />}></Route>
+        <Route path="/Victoria_Stewart_Photography/about" element={<AboutScreen />}></Route>
+        <Route path="/Victoria_Stewart_Photography/contact" element={<BookingScreen />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
