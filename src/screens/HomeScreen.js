@@ -6,7 +6,7 @@ const HomeScreen = () => {
   const navigate = useNavigate();
 
   const handleToWork = () => {
-    navigate('/work')
+    navigate('/Victoria_Stewart_Photography/work')
   }
 
   return (

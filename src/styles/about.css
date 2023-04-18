@@ -1,0 +1,9 @@
+.about-row {
+  height: 80vh;
+}
+
+#tory-image {
+  height: 80vh;
+  opacity: 0.8;
+  border-radius: 100%;
+}
