@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/header.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { animate, motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faPinterest,
-} from "@fortawesome/free-brands-svg-icons";
+// import {
+//   faFacebook,
+//   faInstagram,
+//   faPinterest,
+// } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   const headerInformation = {
@@ -18,32 +19,48 @@ const Header = () => {
     href2: "/Victoria_Stewart_Photography/about",
     link3: "Contact",
     href3: "/Victoria_Stewart_Photography/contact",
-    instaHref: '',
-    facebookHref: '',
-    pinterestHref: ''
+    instaHref: "",
+    facebookHref: "",
+    pinterestHref: "",
+  };
+
+  const hoverVariants = {
+    initial: {
+      scale: 1
+    },
+    hover: {
+      scale: 1.1,
+    },
   };
 
   return (
     <Container fluid className="header">
       <Row className="header-title-row text-center">
         <a href={headerInformation.titlehref}>
-          <h1 className="header-title">{headerInformation.title}</h1>
+          <motion.h1
+            className="header-title"
+            variants={hoverVariants}
+            initial="initial"
+            whileHover="hover"
+          >
+            {headerInformation.title}
+          </motion.h1>
         </a>
       </Row>
-      <Row className="header-icon-row">
+      {/* <Row className="header-icon-row">
         <div className="social-media-div">
           <a href={headerInformation.instaHref}>
-            <FontAwesomeIcon icon={faInstagram} className="mx-2"/>
+            <FontAwesomeIcon icon={faInstagram} className="mx-2" />
           </a>
           <a href={headerInformation.facebookHref}>
-            <FontAwesomeIcon icon={faFacebook} className="mx-2"/>
+            <FontAwesomeIcon icon={faFacebook} className="mx-2" />
           </a>
           <a href={headerInformation.pinterestHref}>
-            <FontAwesomeIcon icon={faPinterest} className="mx-3"/>
+            <FontAwesomeIcon icon={faPinterest} className="mx-3" />
           </a>
         </div>
-      </Row>
-      <Row className="header-nav-row text-center ">
+      </Row> */}
+      <Row className="header-nav-row text-center my-2">
         <Col>
           <a href={headerInformation.href1}>
             <p>{headerInformation.link1}</p>

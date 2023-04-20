@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
 import AboutScreen from "./screens/AboutScreen";
-import BookingScreen from "./screens/BookingScreen";
 import WorkScreen from "./screens/WorkScreen";
 import EngagementScreen from "./screens/EngagementScreen";
 import WeddingScreen from "./screens/WeddingScreen";
 import PortraitScreen from "./screens/PortraitScreen";
 import MaternityScreen from "./screens/MaternityScreen";
+import ContactScreen from "./screens/ContactScreen";
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
         ></Route>
         <Route
           path="/Victoria_Stewart_Photography/contact"
-          element={<BookingScreen />}
+          element={<ContactScreen />}
         ></Route>
       </Routes>
     </Router>

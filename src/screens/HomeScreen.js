@@ -12,7 +12,7 @@ const HomeScreen = () => {
   return (
     <>
       <div className="background-image text-center">
-        <h2>Portrait Photographer based in Murray, Kentucky</h2>
+        <h2 className="mb-4">Portrait Photographer based in Murray, Kentucky</h2>
         <button id="see-portfolio-btn" onClick={handleToWork}>View Portfolio</button>
       </div>
     </>

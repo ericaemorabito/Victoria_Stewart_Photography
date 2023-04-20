@@ -5,30 +5,42 @@
   top: 0;
   z-index: -1;
   background-color: grey;
-  background-image: url('../images/maternity/beach.jpg');
+  background-image: url("../images/maternity/beachdeep.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding-top: 30%;
-  padding-bottom: 30%;
+  padding-top: 42%;
+  padding-bottom: 0%;
+  /* opacity: 0.9; */
 }
 
 h2 {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 900;
+  /* background-color: grey; */
+  /* text-shadow: 2px 2px black; */
 }
 
 #see-portfolio-btn {
   color: black;
+  background-color: rgb(145, 174, 193);
   font-size: 1.2rem;
   font-weight: 700;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 6rem;
   padding-right: 6rem;
+  /* border-radius: 50%; */
 }
 
-/* breakpoints
- change backgound image padding top 
- change center 
- */
+@media (max-width: 1000px) {
+  .background-image {
+    padding-top: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    padding-top: 65%;
+  }
+}

@@ -4,10 +4,9 @@ import { motion } from "framer-motion";
 import "../styles/work.css";
 
 import engagement from "../images/engagement/couple.jpg";
-import portrait from '../images/portrait/tory.jpeg'
-import wedding from '../images/wedding/kiss.jpeg'
-import maternity from '../images/maternity/sand.jpg'
-
+import portrait from "../images/portrait/tory.jpeg";
+import wedding from "../images/wedding/kiss.jpeg";
+import maternity from "../images/maternity/sand.jpg";
 
 const imageVariants = {
   hidden: {
@@ -22,8 +21,9 @@ const WorkScreen = () => {
   return (
     <Container className="mt-5">
       <Row className="work-row my-3 flex-wrap">
-        <Col sm={12} lg={5} className="work-card-col" id="portrait-card">
+        <Col sm={12} lg={5} md={8} className="work-card-col" id="portrait-card">
           <a href="/Victoria_Stewart_Photography/engagement">
+            <h3 className="work-card-title">Engagement</h3>
             <motion.img
               src={engagement}
               alt="couple smiling"
@@ -33,10 +33,10 @@ const WorkScreen = () => {
               whileHover="visible"
             ></motion.img>
           </a>
-          <h3 className="work-card-title">Engagement</h3>
         </Col>
-        <Col sm={12} lg={5} className="work-card-col" id="portrait-card">
+        <Col sm={12} lg={5} md={8} className="work-card-col" id="portrait-card">
           <a href="/Victoria_Stewart_Photography/wedding">
+            <h3 className="work-card-title">Wedding</h3>
             <motion.img
               src={wedding}
               alt="couple smiling"
@@ -46,10 +46,10 @@ const WorkScreen = () => {
               whileHover="visible"
             ></motion.img>
           </a>
-          <h3 className="work-card-title">Wedding</h3>
         </Col>
-        <Col sm={12} lg={5} className="work-card-col" id="portrait-card">
+        <Col sm={12} lg={5} md={8} className="work-card-col" id="portrait-card">
           <a href="/Victoria_Stewart_Photography/portrait">
+            <h3 className="work-card-title">Portrait</h3>
             <motion.img
               src={portrait}
               alt="couple smiling"
@@ -59,10 +59,10 @@ const WorkScreen = () => {
               whileHover="visible"
             ></motion.img>
           </a>
-          <h3 className="work-card-title">Portrait</h3>
         </Col>
-        <Col sm={12} lg={5} className="work-card-col" id="portrait-card">
+        <Col sm={12} lg={5} md={8} className="work-card-col" id="portrait-card">
           <a href="/Victoria_Stewart_Photography/maternity">
+            <h3 className="work-card-title">Maternity</h3>
             <motion.img
               src={maternity}
               alt="couple smiling"
@@ -72,7 +72,6 @@ const WorkScreen = () => {
               whileHover="visible"
             ></motion.img>
           </a>
-          <h3 className="work-card-title">Maternity</h3>
         </Col>
       </Row>
     </Container>
