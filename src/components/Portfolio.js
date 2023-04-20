@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/portfolio.css";
+import Backarrow from "./Backarrow";
 
 const Portfolio = ({
   event,
@@ -32,6 +33,7 @@ const Portfolio = ({
           <img className="portfolio-image" src={image4}></img>
         </Col>
       </Row>
+      <Backarrow />
     </Container>
   );
 };

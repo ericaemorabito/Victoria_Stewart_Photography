@@ -1,0 +1,17 @@
+.back-row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 15%;
+}
+
+#arrow-image {
+  height: 50px;
+  width: 50px;
+  display: inline;
+}
+
+#view-work {
+  font-size: 1.75rem;
+  display: inline;
+}
