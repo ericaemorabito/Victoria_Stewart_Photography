@@ -1,8 +1,34 @@
 #contact-form {
-  background-color: grey; 
+  background-color: transparent;
+  border: 1px solid grey;
 }
 
 #contact-image {
   height: 100px;
   width: 100px;
+}
+
+#contact-title {
+  position: relative;
+}
+
+.title-description,
+.form-label,
+.form-control,
+.form-select, 
+.send-btn {
+  font-size: 1.2rem;
+}
+
+.send-btn {
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+  border: 1px solid grey;
+}
+
+.send-btn:hover, .send-btn:active {
+  color: white;
+  background-color: black;
+  border: 1px solid grey;
 }

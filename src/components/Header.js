@@ -39,9 +39,9 @@ const Header = () => {
         <a href={headerInformation.titlehref}>
           <motion.h1
             className="header-title"
-            variants={hoverVariants}
-            initial="initial"
-            whileHover="hover"
+            // variants={hoverVariants}
+            // initial="initial"
+            // whileHover="hover"
           >
             {headerInformation.title}
           </motion.h1>
@@ -63,13 +63,13 @@ const Header = () => {
       <Row className="header-nav-row text-center my-2">
         <Col>
           <a href={headerInformation.href1}>
-            <p>{headerInformation.link1}</p>
+            <p className="nav-link">{headerInformation.link1}</p>
           </a>
           <a href={headerInformation.href2}>
-            <p>{headerInformation.link2}</p>
+            <p className="nav-link">{headerInformation.link2}</p>
           </a>
           <a href={headerInformation.href3}>
-            <p>{headerInformation.link3}</p>
+            <p className="nav-link">{headerInformation.link3}</p>
           </a>
         </Col>
       </Row>
