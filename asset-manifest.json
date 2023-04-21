@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Victoria_Stewart_Photography/static/css/main.172118b3.css",
+    "main.js": "/Victoria_Stewart_Photography/static/js/main.ac8b6212.js",
+    "static/js/787.80e6b724.chunk.js": "/Victoria_Stewart_Photography/static/js/787.80e6b724.chunk.js",
+    "static/media/kiss.jpeg": "/Victoria_Stewart_Photography/static/media/kiss.bdde9646e7ac480eb5c3.jpeg",
+    "static/media/smile.jpeg": "/Victoria_Stewart_Photography/static/media/smile.80627e29f6a402407079.jpeg",
+    "static/media/grass.jpeg": "/Victoria_Stewart_Photography/static/media/grass.872507fa9bfd22c6c086.jpeg",
+    "static/media/beachdeep.jpg": "/Victoria_Stewart_Photography/static/media/beachdeep.581bd07fef7ce7f6649b.jpg",
+    "static/media/ring.jpeg": "/Victoria_Stewart_Photography/static/media/ring.d799db6b6eaf2a0de41d.jpeg",
+    "static/media/beach.jpg": "/Victoria_Stewart_Photography/static/media/beach.c3eb94911ed21620de6d.jpg",
+    "static/media/side.jpeg": "/Victoria_Stewart_Photography/static/media/side.e94b69d3ac8e7bc8ccc8.jpeg",
+    "static/media/head.jpg": "/Victoria_Stewart_Photography/static/media/head.cc6b00c12558a537d579.jpg",
+    "static/media/cake.jpeg": "/Victoria_Stewart_Photography/static/media/cake.8b30330e798b972b480f.jpeg",
+    "static/media/hug.jpg": "/Victoria_Stewart_Photography/static/media/hug.2c0f869c8bcf3746b833.jpg",
+    "static/media/sand.jpg": "/Victoria_Stewart_Photography/static/media/sand.7241571f2dd64482ccba.jpg",
+    "static/media/tory.jpeg": "/Victoria_Stewart_Photography/static/media/tory.d21c9b55ebab2047a69c.jpeg",
+    "static/media/smileTor.jpeg": "/Victoria_Stewart_Photography/static/media/smileTor.58c8a9cda4e8f1da2864.jpeg",
+    "static/media/couple.jpg": "/Victoria_Stewart_Photography/static/media/couple.9d51f31404fb30d3aaf7.jpg",
+    "static/media/smile.jpg": "/Victoria_Stewart_Photography/static/media/smile.8abdd39c498fa16c15df.jpg",
+    "static/media/ring.jpg": "/Victoria_Stewart_Photography/static/media/ring.6ac4615a5cccb3c51c29.jpg",
+    "static/media/arrow.jpeg": "/Victoria_Stewart_Photography/static/media/arrow.08449ce2690ab827039b.jpeg",
+    "index.html": "/Victoria_Stewart_Photography/index.html",
+    "main.172118b3.css.map": "/Victoria_Stewart_Photography/static/css/main.172118b3.css.map",
+    "main.ac8b6212.js.map": "/Victoria_Stewart_Photography/static/js/main.ac8b6212.js.map",
+    "787.80e6b724.chunk.js.map": "/Victoria_Stewart_Photography/static/js/787.80e6b724.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.172118b3.css",
+    "static/js/main.ac8b6212.js"
+  ]
+}
