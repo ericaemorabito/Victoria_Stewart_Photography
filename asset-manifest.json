@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Victoria_Stewart_Photography/static/css/main.a2aa7502.css",
-    "main.js": "/Victoria_Stewart_Photography/static/js/main.820f434d.js",
+    "main.js": "/Victoria_Stewart_Photography/static/js/main.73b5c9aa.js",
     "static/js/787.80e6b724.chunk.js": "/Victoria_Stewart_Photography/static/js/787.80e6b724.chunk.js",
     "static/media/kiss.jpeg": "/Victoria_Stewart_Photography/static/media/kiss.bdde9646e7ac480eb5c3.jpeg",
     "static/media/smile.jpeg": "/Victoria_Stewart_Photography/static/media/smile.80627e29f6a402407079.jpeg",
@@ -22,11 +22,11 @@
     "static/media/arrow.jpeg": "/Victoria_Stewart_Photography/static/media/arrow.08449ce2690ab827039b.jpeg",
     "index.html": "/Victoria_Stewart_Photography/index.html",
     "main.a2aa7502.css.map": "/Victoria_Stewart_Photography/static/css/main.a2aa7502.css.map",
-    "main.820f434d.js.map": "/Victoria_Stewart_Photography/static/js/main.820f434d.js.map",
+    "main.73b5c9aa.js.map": "/Victoria_Stewart_Photography/static/js/main.73b5c9aa.js.map",
     "787.80e6b724.chunk.js.map": "/Victoria_Stewart_Photography/static/js/787.80e6b724.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2aa7502.css",
-    "static/js/main.820f434d.js"
+    "static/js/main.73b5c9aa.js"
   ]
 }
